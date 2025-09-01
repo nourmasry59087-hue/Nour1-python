@@ -21,12 +21,18 @@
 #    counter+=1
     
 #mohamed's additional exercise
-x=0
-counter=1
-storage=x
-while counter<=10 :
-    sum=x+storage
-    print (f'current number {x} previous number {storage} sum ={sum}')
-    x+=1
-    storage=sum
-    counter+=1
+#x=0
+#counter=1
+#storage=x
+#while counter<=10 :
+#    sum=x+storage
+#    print (f'current number {x} previous number {storage} sum ={sum}')
+#    x+=1
+#    storage=sum
+#    counter+=1
+
+
+#mohamed unneeded exercise 
+n=10
+sum=n * (n + 1) // 2
+print(sum)
