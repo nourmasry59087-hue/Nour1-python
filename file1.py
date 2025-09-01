@@ -33,6 +33,17 @@
 
 
 #mohamed unneeded exercise 
-n=10
-sum=n * (n + 1) // 2
-print(sum)
+#n=10
+#sum=n * (n + 1) // 2
+#print(sum)
+
+
+#exercise 3
+strnour = input ("enter your string")
+print(f"original string is {strnour}")
+print('printing only even index chars')
+count =0
+while count<len(strnour) :
+   if count%2==0 :
+        print(strnour[count])
+   count+=1
