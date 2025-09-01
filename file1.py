@@ -10,6 +10,17 @@
 
 
 #second exercise
+#x=0
+#counter=1
+#storage=x
+#while counter<=10 :
+#    sum=x+storage
+#    print (f'current number {x} previous number {storage} sum ={sum}')
+#    x+=1
+#    storage=x-1
+#    counter+=1
+    
+#mohamed's additional exercise
 x=0
 counter=1
 storage=x
@@ -17,6 +28,5 @@ while counter<=10 :
     sum=x+storage
     print (f'current number {x} previous number {storage} sum ={sum}')
     x+=1
-    storage=x-1
+    storage=sum
     counter+=1
-    
