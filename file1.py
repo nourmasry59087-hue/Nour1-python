@@ -39,11 +39,17 @@
 
 
 #exercise 3
-strnour = input ("enter your string")
-print(f"original string is {strnour}")
-print('printing only even index chars')
-count =0
-while count<len(strnour) :
-   if count%2==0 :
-        print(strnour[count])
-   count+=1
+#strnour = input ("enter your string")
+#print(f"original string is {strnour}")
+#print('printing only even index chars')
+#count =0
+#while count<len(strnour) :
+#   if count%2==0 :
+#        print(strnour[count])
+#   count+=1
+
+
+#exercise 4
+strnour = input("enter your string")
+n = int(input("enter number of removed characters"))
+print(strnour[n:])
