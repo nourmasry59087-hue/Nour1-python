@@ -56,15 +56,23 @@
 
 
 #exercise 5
+#nourlist = []
+#istrue = True
+#n = int(input("what's the number of entered numbers"))
+#while n>0 :
+#    nourlist.append(int(input("enter number")))
+#    n-=1    
+#if nourlist[0] == nourlist[-1] :
+#    print(istrue)
+#else :
+#    istrue=False
+#    print(istrue)
+
+
+#exercise 6
 nourlist = []
-istrue = True
-n = int(input("what's the number of entered numbers"))
-while n>0 :
+n = int(input("what's number of list numbers"))
+for i in range(n) :
     nourlist.append(int(input("enter number")))
-    n-=1
-    
-if nourlist[0] == nourlist[-1] :
-    print(istrue)
-else :
-    istrue=False
-    print(istrue)
+    if nourlist[i]%5==0 :
+        print(nourlist[i])
