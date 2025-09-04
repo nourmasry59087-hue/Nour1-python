@@ -79,9 +79,19 @@
 
 
 #exercise 7
-nourstring = input('enter your string')
-nourstring.split()
-print(nourstring.count('emma'))
+#nourstring = input('enter your string')
+#nourstring.split()
+#print(nourstring.count('emma'))
 
 
 #exercise 10
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
+nourlist = []
+for i in list1 :
+    if i % 2 !=0 :
+        nourlist.append(i)
+for n in list2 :
+    if n % 2 ==0 :
+        nourlist.append(n)
+print(nourlist) 
