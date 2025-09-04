@@ -70,9 +70,18 @@
 
 
 #exercise 6
-nourlist = []
-n = int(input("what's number of list numbers"))
-for i in range(n) :
-    nourlist.append(int(input("enter number")))
-    if nourlist[i]%5==0 :
-        print(nourlist[i])
+#nourlist = []
+#n = int(input("what's number of list numbers"))
+#for i in range(n) :
+#    nourlist.append(int(input("enter number")))
+#    if nourlist[i]%5==0 :
+#        print(nourlist[i])
+
+
+#exercise 7
+nourstring = input('enter your string')
+nourstring.split()
+print(nourstring.count('emma'))
+
+
+#exercise 10
