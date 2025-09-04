@@ -85,13 +85,38 @@
 
 
 #exercise 10
-list1 = [10, 20, 25, 30, 35]
-list2 = [40, 45, 60, 75, 90]
-nourlist = []
-for i in list1 :
-    if i % 2 !=0 :
-        nourlist.append(i)
-for n in list2 :
-    if n % 2 ==0 :
-        nourlist.append(n)
-print(nourlist) 
+#list1 = [10, 20, 25, 30, 35]
+#list2 = [40, 45, 60, 75, 90]
+#nourlist = []
+#for i in list1 :
+#    if i % 2 !=0 :
+#        nourlist.append(i)
+#for n in list2 :
+#    if n % 2 ==0 :
+#        nourlist.append(n)
+#print(nourlist) 
+
+
+#exercise 16
+nourpalindrome = input('enter your number')
+nourpalindrome=list(nourpalindrome)
+nour2=nourpalindrome.copy()
+nour=nourpalindrome.reverse()
+print(nourpalindrome)
+print(nour2)
+if nourpalindrome == nour2:
+         print('palindrome')
+else :
+         print('not palindrome')
+
+
+#exercise 17
+#n=0
+#storage1 =0
+#storage2 =0
+#print(n)
+#for i in range(5) :
+    
+#     print(n+storage1)
+#     storage1 =n
+#     n+=1
