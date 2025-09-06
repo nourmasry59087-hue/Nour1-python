@@ -111,24 +111,29 @@
 
 
 #exercise 17
-nour1=0
-nour2 =1
-print(nour1)
-print(nour2)
-for i in range(10) :
-        sum = nour1+nour2
-        print(sum)
-        nour1=nour2
-        nour2=sum
+#nour1=0
+#nour2 =1
+#print(nour1)
+#print(nour2)
+#for i in range(10) :
+#        sum = nour1+nour2
+#        print(sum)
+#        nour1=nour2
+#        nour2=sum
         
         
         
 
 
 #exercise 19
-#counter=1
-#while counter<20 :
-     
-
-
-#     counter+=1
+isprime = True
+nourprime =set()
+for i in range(1,20) :
+    if i > 1 :
+        for n in range (2,i) :
+            if i%n ==0 :
+                break
+            else :
+                nourprime.add(i)
+print(nourprime)                
+            
