@@ -98,25 +98,37 @@
 
 
 #exercise 16
-nourpalindrome = input('enter your number')
-nourpalindrome=list(nourpalindrome)
-nour2=nourpalindrome.copy()
-nour=nourpalindrome.reverse()
-print(nourpalindrome)
-print(nour2)
-if nourpalindrome == nour2:
-         print('palindrome')
-else :
-         print('not palindrome')
+#nourpalindrome = input('enter your number')
+#nourpalindrome=list(nourpalindrome)
+#nour2=nourpalindrome.copy()
+#nour=nourpalindrome.reverse()
+#print(nourpalindrome)
+#print(nour2)
+#if nourpalindrome == nour2:
+#         print('palindrome')
+#else :
+#         print('not palindrome')
 
 
 #exercise 17
-#n=0
-#storage1 =0
-#storage2 =0
-#print(n)
-#for i in range(5) :
-    
-#     print(n+storage1)
-#     storage1 =n
-#     n+=1
+nour1=0
+nour2 =1
+print(nour1)
+print(nour2)
+for i in range(10) :
+        sum = nour1+nour2
+        print(sum)
+        nour1=nour2
+        nour2=sum
+        
+        
+        
+
+
+#exercise 19
+#counter=1
+#while counter<20 :
+     
+
+
+#     counter+=1
