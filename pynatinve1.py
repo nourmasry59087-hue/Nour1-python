@@ -126,14 +126,15 @@
 
 
 #exercise 19
-isprime = True
 nourprime =set()
 for i in range(1,30) :
+    isprime = True
     if i > 1 :
         for n in range (2,i) :
             if i%n ==0 :
+                isprime = False
                 break
-            else :
-                nourprime.add(i)
-print(nourprime)                
+        if isprime==True :
+            nourprime.add(i)
+print(sorted(nourprime))                
             
