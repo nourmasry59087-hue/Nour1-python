@@ -28,8 +28,19 @@
 
 
 #exercise 14 
-num = input("enter number :")
-num = list(num)
-num.reverse()
-num = "".join(num)
-print(num)
+#num = input("enter number :")
+#num = list(num)
+#num.reverse()
+#num = "".join(num)
+#print(num)
+
+
+#exercise 17
+num=int(input("num:"))
+nour=num                           #storage
+sum=2
+terms=int(input("terms:"))
+for i in range(0,terms-1) :
+    num = (num*10)+nour
+    sum+=num
+print(sum)
