@@ -38,7 +38,7 @@
 #exercise 17
 num=int(input("num:"))
 nour=num                           #storage
-sum=2
+sum=num
 terms=int(input("terms:"))
 for i in range(0,terms-1) :
     num = (num*10)+nour
