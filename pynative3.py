@@ -21,7 +21,15 @@
 
 
 #exercise 13
-num=int(input("enter number : "))
-for i in range(num-1,1,-1) :
-    num=num*i
+#num=int(input("enter number : "))
+#for i in range(num-1,1,-1) :
+#    num=num*i
+#print(num)
+
+
+#exercise 14 
+num = input("enter number :")
+num = list(num)
+num.reverse()
+num = "".join(num)
 print(num)
