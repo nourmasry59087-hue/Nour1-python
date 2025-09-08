@@ -38,9 +38,19 @@
 #exercise 17
 num=int(input("num:"))
 nour=num                           #storage
-sum=num
+nour+=1
+print(num)
+sum=0
+z=0
 terms=int(input("terms:"))
-for i in range(0,terms-1) :
-    num = (num*10)+nour
-    sum+=num
+for i in range(0,terms) :
+    z = (z*10)+nour
+    sum+=z
+    print(nour)
+    print(z)
+    print('#'*50)
 print(sum)
+
+
+#exercise 19
+#num=int(input("multiplication table of "))
