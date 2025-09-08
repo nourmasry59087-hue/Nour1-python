@@ -36,21 +36,22 @@
 
 
 #exercise 17
-num=int(input("num:"))
-nour=num                           #storage
-nour+=1
-print(num)
-sum=0
-z=0
-terms=int(input("terms:"))
-for i in range(0,terms) :
-    z = (z*10)+nour
-    sum+=z
-    print(nour)
-    print(z)
-    print('#'*50)
-print(sum)
+#num=int(input("num:"))
+#nour=num                           #storage
+#nour+=1
+#print(num)
+#sum=0
+#z=0
+#terms=int(input("terms:"))
+#for i in range(0,terms) :
+#    z = (z*10)+nour
+#    sum+=z
+#    print(nour)
+#    print(z)
+#    print('#'*50)
+#print(sum)
 
 
 #exercise 19
-#num=int(input("multiplication table of "))
+num=list(input("num : "))
+print(f"greatest number is :{max(num)},and lowest number is{min(num)}")
