@@ -29,23 +29,32 @@
 
 
 #exercise 3 
-nourlist = [11, 45, 8, 23, 14, 12, 78, 45, 89]
-nourlist2 = nourlist.copy()  #storage
-print("chunck 1 :")
-nourlist2=nourlist[0:3]
-print(nourlist2)
-print("After reversing it")
-nourlist2.reverse()
-print(nourlist2)
-print("chunck 2 :")
-nourlist2=nourlist[3:6]
-print(nourlist2)
-print("After reversing it")
-nourlist2.reverse()
-print(nourlist2)
-print("chunck 3 :")
-nourlist2=nourlist[6:9]
-print(nourlist2)
-print("After reversing it")
-nourlist2.reverse()
-print(nourlist2)
+#nourlist = [11, 45, 8, 23, 14, 12, 78, 45, 89]
+#nourlist2 = nourlist.copy()  #storage
+#print("chunck 1 :")
+#nourlist2=nourlist[0:3]
+#print(nourlist2)
+#print("After reversing it")
+#nourlist2.reverse()
+#print(nourlist2)
+#print("chunck 2 :")
+#nourlist2=nourlist[3:6]
+#print(nourlist2)
+#print("After reversing it")
+#nourlist2.reverse()
+#print(nourlist2)
+#print("chunck 3 :")
+##nourlist2=nourlist[6:9]
+#print(nourlist2)
+#print("After reversing it")
+#nourlist2.reverse()
+#print(nourlist2)
+
+
+#exercise 4
+sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
+nourdict = {}
+for i in sample_list :
+    nourcount= sample_list.count(i)
+    nourdict.update({i : nourcount})
+print(nourdict)
