@@ -15,14 +15,37 @@
 
 
 #exercise 2
-list1 = [34, 54, 67, 89, 11, 43, 94]
-print("List After removing element at index 4")
-nour = list1[4]
-del list1[4]
-print(list1)
-print("List after Adding element at index 2")
-list1.insert(2,nour)
-print(list1)
-print("List after Adding element at last")
-list1.append(nour)
-print(list1)
+#list1 = [34, 54, 67, 89, 11, 43, 94]
+#print("List After removing element at index 4")
+#nour = list1[4]
+#del list1[4]
+#print(list1)
+#print("List after Adding element at index 2")
+#list1.insert(2,nour)
+#print(list1)
+#print("List after Adding element at last")
+#list1.insert(len(list1),nour) # or append
+#print(list1)
+
+
+#exercise 3 
+nourlist = [11, 45, 8, 23, 14, 12, 78, 45, 89]
+nourlist2 = nourlist.copy()  #storage
+print("chunck 1 :")
+nourlist2=nourlist[0:3]
+print(nourlist2)
+print("After reversing it")
+nourlist2.reverse()
+print(nourlist2)
+print("chunck 2 :")
+nourlist2=nourlist[3:6]
+print(nourlist2)
+print("After reversing it")
+nourlist2.reverse()
+print(nourlist2)
+print("chunck 3 :")
+nourlist2=nourlist[6:9]
+print(nourlist2)
+print("After reversing it")
+nourlist2.reverse()
+print(nourlist2)
