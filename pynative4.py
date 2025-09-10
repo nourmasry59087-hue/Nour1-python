@@ -61,7 +61,16 @@
 
 
 #exercise 5
-list1 = [2, 3, 4, 5, 6, 7, 8]
-list2 = [4, 9, 16, 25, 36, 49, 64]
-nour=zip(list1,list2)
-print(list(nour))
+#list1 = [2, 3, 4, 5, 6, 7, 8]
+#list2 = [4, 9, 16, 25, 36, 49, 64]
+#nour=zip(list1,list2)
+#print(list(nour))
+
+
+#exercise 6
+set1 = {23, 42, 65, 57, 78, 83, 29}
+set2 = {57, 83, 29, 67, 73, 43, 48}
+nour=set1.intersection(set2)
+print("intersecrtion is :",nour)
+nour = set1 - nour
+print("First Set after removing common element",nour)
