@@ -68,9 +68,28 @@
 
 
 #exercise 6
-set1 = {23, 42, 65, 57, 78, 83, 29}
-set2 = {57, 83, 29, 67, 73, 43, 48}
-nour=set1.intersection(set2)
-print("intersecrtion is :",nour)
-nour = set1 - nour
-print("First Set after removing common element",nour)
+#set1 = {23, 42, 65, 57, 78, 83, 29}
+#set2 = {57, 83, 29, 67, 73, 43, 48}
+#nour=set1.intersection(set2)
+#print("intersecrtion is :",nour)
+#nour = set1 - nour
+#print("First Set after removing common element",nour)
+
+
+#exercise 7
+first_set = {27, 43, 34}
+second_set = {34, 93, 22, 27, 43, 53, 48}
+nour = first_set.issubset(second_set)
+nour2=first_set.issuperset(second_set)
+if nour==True or nour2==True :
+    first_set.clear()
+print("First set is subset of second set -",nour)
+print("First set is superset of second set -",nour2)
+nour=second_set.issubset(first_set)
+nour2=second_set.issuperset(first_set)
+if nour==True or nour2==True :
+    second_set.clear()
+print("second set is subset of first set -",nour)
+print("second set is superset of first set -",nour2)
+print("First Set", first_set)
+print("decond set ",second_set)
