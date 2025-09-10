@@ -77,19 +77,26 @@
 
 
 #exercise 7
-first_set = {27, 43, 34}
-second_set = {34, 93, 22, 27, 43, 53, 48}
-nour = first_set.issubset(second_set)
-nour2=first_set.issuperset(second_set)
-if nour==True or nour2==True :
-    first_set.clear()
-print("First set is subset of second set -",nour)
-print("First set is superset of second set -",nour2)
-nour=second_set.issubset(first_set)
-nour2=second_set.issuperset(first_set)
-if nour==True or nour2==True :
-    second_set.clear()
-print("second set is subset of first set -",nour)
-print("second set is superset of first set -",nour2)
-print("First Set", first_set)
-print("decond set ",second_set)
+#first_set = {27, 43, 34}
+#second_set = {34, 93, 22, 27, 43, 53, 48}
+#nour = first_set.issubset(second_set)
+#nour2=first_set.issuperset(second_set)
+#if nour==True or nour2==True :
+#    first_set.clear()
+#print("First set is subset of second set -",nour)
+#print("First set is superset of second set -",nour2)
+#nour=second_set.issubset(first_set)
+#nour2=second_set.issuperset(first_set)
+#if nour==True or nour2==True :
+#    second_set.clear()
+#print("second set is subset of first set -",nour)
+#print("second set is superset of first set -",nour2)
+#print("First Set", first_set)
+#print("second set ",second_set)
+
+
+#exercise 8
+speed = {'jan': 47, 'feb': 52, 'march': 47, 'April': 44,
+          'May': 52, 'June': 53, 'july': 54, 'Aug': 44, 'Sept': 54}
+nourlist =list(set(speed.values()))
+print(nourlist)
