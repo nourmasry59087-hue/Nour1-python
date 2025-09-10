@@ -52,9 +52,16 @@
 
 
 #exercise 4
-sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
-nourdict = {}
-for i in sample_list :
-    nourcount= sample_list.count(i)
-    nourdict.update({i : nourcount})
-print(nourdict)
+#sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
+#nourdict = {}
+#for i in sample_list :
+#    nourcount= sample_list.count(i)
+#    nourdict.update({i : nourcount})
+#print(nourdict)
+
+
+#exercise 5
+list1 = [2, 3, 4, 5, 6, 7, 8]
+list2 = [4, 9, 16, 25, 36, 49, 64]
+nour=zip(list1,list2)
+print(list(nour))
