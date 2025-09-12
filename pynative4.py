@@ -95,8 +95,27 @@
 #print("second set ",second_set)
 
 
-#exercise 8
-speed = {'jan': 47, 'feb': 52, 'march': 47, 'April': 44,
-          'May': 52, 'June': 53, 'july': 54, 'Aug': 44, 'Sept': 54}
-nourlist =list(set(speed.values()))
-print(nourlist)
+#exercise 9
+#speed = {'jan': 47, 'feb': 52, 'march': 47, 'April': 44,
+#          'May': 52, 'June': 53, 'july': 54, 'Aug': 44, 'Sept': 54}
+#nourlist =list(set(speed.values()))
+#print(nourlist)
+
+
+#exercise 8 
+roll_number = [47, 64, 69, 37, 76, 83, 95, 97]
+sample_dict = {'Jhon':47, 'Emma':69, 'Kelly':76, 'Jason':97}
+for i in roll_number :
+    if i not in sample_dict.values() :
+       roll_number.remove(i)
+print(" after removing unwanted elements",roll_number)
+
+
+#exercise 10 
+#sample_list = [87, 45, 41, 65, 94, 41, 99, 94]
+#sample_list=list(set(sample_list))
+#print("unique items :" , sample_list)
+#sample_list=tuple(sample_list)
+#print("tuple :" , sample_list)
+#print("min : ", min(sample_list))
+#print("max" , max(sample_list))
